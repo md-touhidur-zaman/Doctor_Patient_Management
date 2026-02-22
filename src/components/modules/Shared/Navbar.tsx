@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <div className="container mx-auto">
-      <div className=" md:flex justify-between py-1 px-4 md:px-0 hidden">
+      <div className=" md:flex justify-between py-1 px-4 lg:px-0 hidden">
         <div className="flex items-center gap-2 ">
           <small className="text-sm flex items-center gap-2">
             <Mail className="text-blue-500" /> info@example.com
@@ -58,7 +58,7 @@ export default function Navbar() {
 
       <hr />
       
-      <header className="px-4 md:px-0">
+      <header className="px-4 lg:px-0">
         <div className="flex h-16 items-center justify-between gap-4 ">
           {/* Left side */}
           <div className="flex flex-1 items-center gap-2">

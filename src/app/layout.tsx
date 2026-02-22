@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="bg-white fixed min-w-dvw">
+        <div className="bg-white fixed min-w-dvw z-80">
           <Navbar/>
         </div>
         <div className="min-h-dvh pt-16 md:pt-28">
