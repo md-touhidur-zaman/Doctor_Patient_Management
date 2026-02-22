@@ -1,4 +1,4 @@
-import { Asterisk, Grid2x2, Mails,  Sparkles } from "lucide-react";
+import { Ambulance, Asterisk, Grid2x2,   Sparkles } from "lucide-react";
 import Image from "next/image";
 import heroImage from "../../../../public/assets/Images/Home/Hero_Image.png";
 import { Input } from "@/components/ui/input";
@@ -20,7 +20,7 @@ export default function HeroSection() {
           <div className=" w-fit space-y-3">  
             <h1 className="text-3xl md:text-5xl lg:text-7xl text-white font-bold">
               Discover Health: Find Your Trusted  {" "}
-              <Mails className="w-20 h-12 rounded-2xl bg-cyan-100 text-blue-500 border  inline-block" size={10} />{" "}
+              <Ambulance className="w-20 h-12 rounded-2xl bg-cyan-100 text-blue-500 border  inline-block" size={10} />{" "}
               Doctors Today
             </h1>
             <p className="text-background/80">Streamline appointments, records, and communication between doctors and patients in one secure platform</p>
