@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div className="space-y-5">
-          <h1 className="text-xl font-bold">Contact</h1>
+          <h1 className="text-xl font-bold">Contact Us</h1>
           <div className="flex space-x-5">
             <div className="h-10 w-10 border flex justify-center items-center rounded-full">
               <a href="https://www.facebook.com" className="text-blue-500"><Facebook/></a>
